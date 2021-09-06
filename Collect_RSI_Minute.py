@@ -7,9 +7,7 @@ import configparser, operator
 from pathlib import Path
 from datetime import datetime
 
-key = 'I1C1R481B394CN6K'    #real key
-#key = 'YCN9XC476F4IYT8Q'    # rudy key demo tibak e
-#key = 'UHY6J7LANSK6GJX1'    #demo key
+key = 'UHY6J7LANSK6GJX1'    #demo key
 
 dstfldrCOMPACT = "Result_Compact"
 dstfldrFULL = "Result_Full"
