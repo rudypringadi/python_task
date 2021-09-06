@@ -5,7 +5,7 @@ from time import time, sleep
 
 
 def get_api(tick):
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=%s&interval=1min&outputsize=full&apikey=UHY6J7LANSK6GJX1&datatype=csv'%tick
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=%s&interval=1min&outputsize=full&apikey=XXXXXXXXXXXXXX&datatype=csv'%tick
     
     try:
         ses = requests.session()
